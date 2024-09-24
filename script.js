@@ -14,8 +14,8 @@ function validaEhNumero(num1, num2) {
 let resultado;
 
 function calcular(operacao) {
-    const num1 = document.getElementById("num1").value;
-    const num2 = document.getElementById("num2").value;
+    const num1 = parseFloat(document.getElementById("num1").value);
+    const num2 = parseFloat(document.getElementById("num2").value);
 
     validaEhNumero(num1, num2);
 
